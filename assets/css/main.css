@@ -1,0 +1,122 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: linear-gradient(to right, #360033,#0b8793);
+}
+
+
+header h1 {
+    color: hsl(0, 0%, 100%);
+    margin-block: 20px;
+    font-size: 32px;
+    text-align: center;
+}
+
+
+main {
+    display: grid;
+    justify-content: center;
+    
+}
+
+
+
+
+.todo-input {
+    border-color: #0b8793;
+    padding: 4px 7px;
+}
+
+.selectadd {
+    border-color: #0b8793;
+    border: 2px solid  #0b8793;
+}
+
+
+
+.completion {
+    text-decoration: line-through;
+   
+}
+.complete-btn {
+    background-color: greenyellow;
+    border-color: greenyellow;
+    padding: 5px;
+}
+
+.todoButton {
+   
+    background-color: greenyellow;
+    border-color: greenyellow;
+    padding: 1px 5px;
+}
+
+.select {
+    border-color: #0b8793;
+}
+
+
+.trash-btn {
+    padding: 1px 5px;
+    background-color: red;
+    border-color: red;
+
+}
+
+.todo-button {
+    padding: 9px 30px;
+    list-style: none;
+    border-color: #0b8793;
+    width: 160px;
+}
+
+
+.todo-list {
+    min-height: 30%;
+    list-style: none;
+}
+
+
+.todo {
+    margin: 0.5rem;
+    background-color: #fff;
+    color: black;
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    border: 2px solid #0b8793;
+}
+
+.inputButton {
+    margin-bottom: 12px;
+}
+
+
+.container {
+    display: flex;
+    justify-content: center;
+    padding-top: 60px;
+    text-align: center;
+    text-decoration: none;
+    list-style: none;
+    
+}
+
+
+
+.todo-list {
+    min-height: 30%;
+    list-style: none;
+}
+
+
+.todo-item {
+    min-width: 150px;
+    padding: 11px;
+}
+
